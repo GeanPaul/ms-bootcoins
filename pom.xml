@@ -42,7 +42,7 @@
             <optional>true</optional>
         </dependency>
 
-        <!--Dependencia para agregar config server client-->
+        <!--Dependencia para agregar config server client y eureka-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-config-client</artifactId>
@@ -52,6 +52,11 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-bootstrap</artifactId>
             <version>3.1.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+            <version>3.1.2</version>
         </dependency>
         <!-- ================================================-->
 
